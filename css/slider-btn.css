@@ -1,0 +1,26 @@
+.slider {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+ .slick-prev:before {
+    content: url('../img/slider-prev.png');
+}
+
+.slick-next:before {
+    content: url('../img/slider-next.png');
+}
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    z-index: 1;
+}
+
+.slick-prev {
+    margin-left: -33px;
+}
+
+.slick-next {
+    margin-right: -8px;
+}
